@@ -81,7 +81,7 @@ print("Predicted class:", predicted_class)
 
 실행결과
 
-![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/85a74df6-78ba-457f-b95e-28723e9d3229)
+![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/7dd80496-2776-4100-a402-1bc90973061a)
 
 모델을 50번 훈련시킵니다.
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/3de4cc37-f478-4afc-b22a-e10dcf59f528)
