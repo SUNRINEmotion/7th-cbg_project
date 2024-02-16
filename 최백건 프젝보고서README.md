@@ -87,7 +87,7 @@ print("Predicted class:", predicted_class)
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/3de4cc37-f478-4afc-b22a-e10dcf59f528)
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/62006c1c-43f7-4954-b9a7-4b7ed6a59b00)
 
-손실과 정확도의 그래프입니다.
+정확도와 손실의 그래프입니다.
 ![20240211_133925](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/30ce6f80-dc63-4553-bd7a-686154f568b9)
 
 보자기를 찍어 모델에게 입력했습니다.
