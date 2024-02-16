@@ -88,6 +88,7 @@ print("Predicted class:", predicted_class)
 ![20240211_133925](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/30ce6f80-dc63-4553-bd7a-686154f568b9)
 
 보자기를 찍어 모델에게 입력했습니다.
+
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/29c4b23e-48dc-41de-8e48-cdf356ea5c30)
 
 보자기는 0번 클래스입니다.
