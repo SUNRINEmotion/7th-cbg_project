@@ -1,6 +1,9 @@
 가위바위보 사진 분류
+
 프로젝트 동기
+
 처음 봤을 때 너무 복잡하거나 어렵지 않고 누구나 쉽게 흥미를 느낄 수 있는 인공지능 프로젝트를 만들어보고 싶었습니다. 그래서 일상에서 우리가 흔히 접할 수 있는 가위바위보 게임을 이용했습니다. 손모양을 보고 가위인지 바위인지 보인지 인식할 수 있는 인공지능 모델을 만들어 처음 본 사람도 인공지능과 머신러닝에 관심을 가지게끔 하고 싶었습니다. 더불어 인공지능 이미지 인식 기술을 살펴보고 이해하는 데 도움을 주고, 인공지능에 대한 막연한 두려움을 없애 누구나 쉽게 활용할 수 있는 미래 과학기술이라는 것을 깨닫도록 합니다.
+
 프로젝트 설명
 ```python
 !wget --no-check-certificate \
@@ -75,13 +78,22 @@ predicted_class = np.argmax(predictions)
 print("Predicted class:", predicted_class)
 ```
 직접 찍은 사진을 모델에 넣어 모델이 잘 작동하는지 확인합니다.
-![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/55bd0da2-3699-4a5f-8a90-e02fc0739ef2)
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/85a74df6-78ba-457f-b95e-28723e9d3229)
+
+모델을 50번 훈련시킵니다.
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/3de4cc37-f478-4afc-b22a-e10dcf59f528)
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/62006c1c-43f7-4954-b9a7-4b7ed6a59b00)
+
+손실과 정확도의 그래프입니다.
 ![20240211_133925](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/30ce6f80-dc63-4553-bd7a-686154f568b9)
+
+보자기를 찍어 모델에게 입력했습니다.
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/29c4b23e-48dc-41de-8e48-cdf356ea5c30)
+
+보자기는 0번 클래스입니다.
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/7007adb9-fe28-470c-925b-df9d80ba3ed2)
+
+0번으로 출력됩니다.
 
 개선 방안
 가위, 바위, 보 중 하나를 찍은 사진을 인공지능에게 보내면 인공지능이 랜덤으로 가위, 바위, 보 중 하나를 골라
