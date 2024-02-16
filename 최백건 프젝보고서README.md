@@ -78,6 +78,9 @@ predicted_class = np.argmax(predictions)
 print("Predicted class:", predicted_class)
 ```
 직접 찍은 사진을 모델에 넣어 모델이 잘 작동하는지 확인합니다.
+
+실행결과
+
 ![image](https://github.com/SUNRINEmotion/7th-cbg_project/assets/112744687/85a74df6-78ba-457f-b95e-28723e9d3229)
 
 모델을 50번 훈련시킵니다.
